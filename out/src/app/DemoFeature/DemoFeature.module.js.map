@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../src/app/DemoFeature/DemoFeature.module.es6"],"names":[],"mappings":";;AAAA;;;AAGA,QAAQ,MAAR,CAAe,8BAAf,EAA+C,EAA/C","file":"DemoFeature.module.js","sourcesContent":["/**\n *     Created by dandersh on 7/16/16\n **/\nangular.module('template-project.DemoFeature', []);\n\n"]}

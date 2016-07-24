@@ -1,0 +1,27 @@
+<html ng-app="template-project">
+<head>
+    <title>Template Project</title>
+    <link rel="stylesheet" href="vendor/css/bootstrap-3.3.5/bootstrap.css" />
+</head>
+<body>
+<div class="jumbotron" ng-controller="HelloController as hello">
+    <h1>Hello World!</h1>
+    <p>{{hello.text}}</p>
+</div>
+
+<div ng-controller="DemoController as Demo">
+    <p>{{Demo.demoText}}</p>
+</div>
+
+<script type="application/javascript" src="vendor/js/angular-1.5.3/angular.js"></script>
+<script type="application/javascript" src="vendor/js/ui-router-0.2.18/ui-router.js"></script>
+<script type="application/javascript" src="vendor/js/angular-1.5.3/angular-animate.js"></script>
+<script type="application/javascript" src="vendor/js/angular-1.5.3/angular-aria.js"></script>
+<script type="application/javascript" src="vendor/js/bluebird-3.3.5/bluebird.js"></script>
+<script type="application/javascript" src="vendor/js/ramda-0.21.0/ramda.js"></script>
+<script type="application/javascript;version=1.7" src="app/app.es6"></script>
+<script type="application/javascript;version=1.7" src="app/DemoFeature/DemoFeature.module.es6"></script>
+<script type="application/javascript;version=1.7" src="app/DemoFeature/DemoFeature.controller.es6"></script>
+<script type="application/javascript;version=1.7" src="app/DemoFeature/DemoFeature.service.es6"></script>
+</body>
+</html>
