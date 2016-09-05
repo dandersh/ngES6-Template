@@ -4,7 +4,7 @@
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "babel-node spec/run.js"
+    "test": "karma start"
   },
   "author": "dandersh",
   "license": "ISC",
@@ -34,6 +34,7 @@
     "karma-babel-preprocessor": "^6.0.1",
     "karma-firefox-launcher": "^0.1.7",
     "karma-jasmine": "^0.3.8",
+    "karma-spec-reporter": "0.0.26",
     "map-stream": "0.0.6",
     "run-sequence": "^1.1.5",
     "watchify": "^3.7.0"

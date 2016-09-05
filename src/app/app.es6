@@ -1,16 +1,14 @@
 (function() {
+    'use strict';
 
+    var app = angular.module('template-project', ['ui.router','template-project.DemoFeature']);
 
-'use strict';
+    app.controller('HelloController', HelloController);
 
-var app = angular.module('template-project', ['template-project.DemoFeature']);
+    HelloController.$inject = [];
 
-app.controller('HelloController', HelloController);
-
-HelloController.$inject = [];
-
-function HelloController() {
-    var vm = this;
-    vm.text = 'Hello Angular!';
-}
+    function HelloController() {
+        var vm = this;
+        vm.text = 'Hello Angular!';
+    }
 })();

@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 let express = require('express');
 let spawn = require('child_process').spawn;
 
@@ -11,12 +11,9 @@ app.use(function (request, response, next) {
     return next();
 });
 
-/*app.get('/', function(request, response) {
-    response.redirect('/src/index.html');
-});*/
-
 app.use(express.static(__dirname + '/src'));
 
 app.listen(8000);
 console.log('Server open on port 8000');
+// Automagically opens the project in your default browser. May or may not work with Windows/IE/Edge which is your own damn fault anyways.
 spawn('open', ['http://localhost:8000']);
